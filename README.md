@@ -31,7 +31,7 @@ This tutorial uses [Hardhat](https://hardhat.org/) as a development environment 
 
 5. Update the `ERC20VerifierAddress` variable in scripts/set-request.js with your deployed contract address
 
-6. Update the `schemaHash`, and the operator and value in scripts/set-request.js with your deployed contract address if you have changed the schema in the query
+6. Update the `schemaHash`, and the `operator` and `value` in scripts/set-request.js with your deployed contract address if you have changed the schema in the query
 
 7. Run set-request to send the zk request to the smart contract
     `npx hardhat run --network mumbai scripts/set-request.js`
